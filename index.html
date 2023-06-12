@@ -1,0 +1,41 @@
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .vl {
+            border-left: 6px dotted white;
+            height: 100%;
+            position: absolute;
+            left: 50%;
+            margin-left: -3px;
+            top: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div style="position: relative; display: inline-block">
+        <div id="displayText" style="
+        position: absolute; 
+        color: black;
+        background-color: white;
+        opacity: 0.5;
+        align-items: center; 
+        justify-content: center;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: none;
+        font-size: 48px;
+        ">
+            Player 1 wins
+        </div>
+        <div class="vl"></div>
+        <canvas></canvas>
+    </div>
+</body>
+<script src="index.js"></script>
